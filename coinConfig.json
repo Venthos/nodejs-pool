@@ -37,6 +37,22 @@
     "mixIn": 3,
     "shortCode": "ITNS"
   },
+    "sumo": {
+      "funcFile": "./lib/coins/sumo.js",
+      "paymentFile": "./payment_systems/sumo.js",
+      "sigDigits": 1000000000,
+      "name": "Sumocoin",
+      "mixIn": 12,
+      "shortCode": "SUMO"
+},
+  "omb": {
+      "funcFile": "./lib/coins/omb.js",
+      "paymentFile": "./payment_systems/omb.js",
+      "sigDigits": 1000000000,
+      "name": "Ombre",
+      "mixIn": 10,
+      "shortCode": "OMB"
+},
   "itns": {
     "funcFile": "./lib/coins/itns.js",
     "paymentFile": "./payment_systems/itns.js",
