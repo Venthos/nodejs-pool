@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "2.1.4",
+    "async-lock": "1.1.2",
     "bignum": "^0.12.5",
     "bluebird": "3.4.7",
     "body-parser": "^1.16.0",
